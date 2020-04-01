@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/3454d38018/UntitledProject/style.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/3454d38018/UntitledProject/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>César Cipher</title>
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+    <header class="main-header">
+      <svg viewbox="0 0 500 500" class="curve">
+        <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" fill="none" />
+        <text width="500">
+          <textpath class="title" id="title" xlink:href="#curve">
+            César Cipher
+          </textpath>
+        </text>
+      </svg>
+      <img src="img/whale.png" id="logo" alt="" class="logo">
+    </header>
+    <main class="box-form">
+      <input type="number" placeholder="Offset" id="offset" class="field">
+      <input type="text" placeholder="Encode" id="encrypt" class="field">
+      <input type="text" placeholder="Decode" id="decrypt" class="field">
+      <button id="clear" class="clear">
+        Limpar
+        <img id="broom" src="img/broom.svg" class="icon-broom">
+      </button>
+    </main>
+    <script src="script/index.js" type="module"></script>
+    <script src="script/animated.js" type="module"></script>
   </body>
+
 </html>
