@@ -1,0 +1,103 @@
+* {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.main-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  position: relative;
+}
+
+.title {
+  font-size: 70px;
+  margin-bottom: 20px;
+  position: absolute;
+}
+
+.curve {
+  height: 395px;
+  top: 0;
+  transform: rotate(8deg);
+  width: 275px;
+}
+
+.logo {
+  position: absolute;
+  top: 120px;
+  transition: transform ease-in-out 2s;
+  width: 250px;
+}
+
+.move-right {
+  transform: rotate(10deg);
+}
+
+.move-left {
+  transform: rotate(-10deg);
+}
+
+.box-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.field {
+  font-size: 20px;
+  height: 40px;
+  margin: 10px;
+  outline: none;
+  text-align: center;
+  width: 35%;
+}
+
+.clear {
+  align-items: center;
+  background-color: #2ba7b3;
+  border: none;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  font-weight: 900;
+  height: 40px;
+  justify-content: center;
+  outline: none;
+  width: 35%;
+}
+
+.icon-broom {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.broom {
+  animation: rotation 2s ease-in-out;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  75% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .field,
+  .clear {
+    width: 90%;
+  }
+}
