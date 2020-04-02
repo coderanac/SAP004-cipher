@@ -10,7 +10,7 @@ A Cifra de César é um modelo de cifragem de mensagens a partir de um deslocame
 
 ## 2. Público alvo
 
-O projeto é um jogo para crianças poderem codificar suas mensagens. A interface é bem lúdica e intuitiva, o mascote do jogo se move na direção da ação, para codificar ele vai para direita e para decodificar vai para a esquerda. O jogo possuĩ um título que é codificado e decodificado de acordo com a ação que a criança estiver realizando. O jogo propõe de forma lúdica a possibilidade do desenvolvimento lógico e matemático.
+O projeto é um jogo para crianças poderem codificar suas mensagens. A interface é bem lúdica e intuitiva, o mascote do jogo se move na direção da ação, para codificar ele vai para direita e para decodificar vai para a esquerda. O jogo possuí um título que é codificado e decodificado de acordo com a ação que a criança estiver realizando. O jogo propõe de forma lúdica a possibilidade do desenvolvimento lógico e matemático.
 
 ## 3. O que a criança poderá aprender com o jogo?
 - Operações matemáticas
@@ -20,5 +20,5 @@ O projeto é um jogo para crianças poderem codificar suas mensagens. A interfac
 - Interpretar estimulos visuais
   - A baleia indo para a direita para codificar ou esquerda para decodificar mostra o movimento da cifra
   - O título codificando e decodificando completa a interação
--Imaginação
+- Imaginação
   - As cores, movimentos e animações podem estimular a imaginação e criativade da criança.
