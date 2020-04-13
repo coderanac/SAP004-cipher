@@ -22,3 +22,14 @@ O projeto é um jogo para crianças poderem codificar suas mensagens. A interfac
   - O título codificando e decodificando completa a interação
 - Imaginação
   - As cores, movimentos e animações podem estimular a imaginação e criativade da criança.
+  
+  
+## Instalação e execução
+- Clone o repositório na sua máquina
+- Pelo terminal acesse a pasta do seu projeto
+- Execute o comando npm install
+- Execute o comando npm run start para que o projeto seja aberto no seu browser
+- Para testar execute o comando npm run test
+
+## Organização e fluxo
+Para visualizar a organização do projeto acesse meu painel no [trello](https://trello.com/b/AtVyOIfD/cifra-de-c%C3%A9sar)
